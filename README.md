@@ -13,3 +13,6 @@ This Terraform project is configured to use AWS S3 for state file storage and Dy
 ## Backend Configuration
 
 This project uses an S3 bucket to store the Terraform state file and a DynamoDB table to manage state locking and prevent concurrent modifications.
+
+TO use this repo as a personal project make a terraform.tfvars 
+To create a terraform.tfvars file for your personal Terraform project, you'll need to define the variable values that Terraform will use. This file will include values for the variables you've defined in your main.tf and backend.tf files, such as the AWS region, AMI ID, instance type, S3 bucket name, etc.
